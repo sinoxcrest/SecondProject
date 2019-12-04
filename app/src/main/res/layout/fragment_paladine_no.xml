@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical"
+    tools:context=".Fragments.PaladineNoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/palidine"
+        android:hint="Enter Number"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnpalidine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palidine Number"
+        android:layout_margin="10dp"
+
+        />
+</LinearLayout>
